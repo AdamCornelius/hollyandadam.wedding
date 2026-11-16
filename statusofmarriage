@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Email Message</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333333;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 0;
+        }
+        .email-container {
+            max-width: 650px;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin: 0 auto;
+        }
+        .email-headers {
+            border-bottom: 1px solid #eeeeee;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .header-line {
+            margin-bottom: 6px;
+        }
+        .header-label {
+            color: #777777;
+            font-weight: bold;
+            display: inline-block;
+            width: 70px;
+        }
+        .email-body {
+            font-size: 15px;
+            line-height: 1.6;
+            white-space: pre-line;
+        }
+        .quote-block {
+            border-left: 3px solid #0056b3;
+            background-color: #f4f7fa;
+            padding: 12px 16px;
+            margin: 16px 0;
+            font-size: 14.5px;
+        }
+        .signature {
+            margin-top: 24px;
+            border-top: 1px solid #eeeeee;
+            padding-top: 16px;
+            font-size: 13px;
+            color: #555555;
+            line-height: 1.5;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="email-container">
+    <!-- Email Headers -->
+    <div class="email-headers">
+        <div class="header-line">
+            <span class="header-label">From:</span> 
+            <a href="https://www.karmatics.com/laura_furniss.html">Laura M. Furniss</a> &lt;<a href="https://www.karmatics.com/laura_furniss.html">laura@furnissflg.com</a>&gt; via furnissflg.onmicrosoft.com
+        </div>
+        <div class="header-line">
+            <span class="header-label">To:</span> 
+            <a href="http://adam47.com">Adam Cornelius</a> &lt;<a href="http://adam47.com">adamecornelius@gmail.com</a>&gt;
+        </div>
+        <div class="header-line">
+            <span class="header-label">Date:</span> Feb 12, 2026, 1:12 PM
+        </div>
+        <div class="header-line">
+            <span class="header-label">Subject:</span> <strong>Cornelius - Cease and Desist</strong>
+        </div>
+    </div>
+
+    <!-- Email Body -->
+    <div class="email-body">
+        Mr. Cornelius,<br><br>
+        
+        The Temporary Restraining Order that you were served with on February 6, 2026, with the DV-116, issued February 4, 2026, extending the First Amended Temporary Restraining Order issued December 26, 2026.<br><br>
+        
+        Since being served with the Temporary Restraining Order, you have been reaching out to Ms. Cornelius through friends, and today, you emailed her directly.<br><br>
+        
+        DV-110 Temporary Restraining Order (p.4/9) (page 8/22 in the attached document)
+        
+        <div class="quote-block">
+            <strong>#11</strong><br>
+            You must not contact the person in (1) the persons in (3) directly or indirectly, by any means, including by telephone, mail, email, or other electronic means.
+        </div>
+        
+        Any communication must be directed towards me.<br><br>
+        
+        I am requesting you immediately cease and desist all contact, directly or indirectly, with my client forthwith and comply with the terms of the Temporary Restraining Order.<br><br>
+        
+        We sincerely hope you will return to California so that we can move this case forward.<br><br>
+        
+        Thank you,<br><br>
+        
+        <a href="https://www.karmatics.com/laura_furniss.html">Laura</a>
+    </div>
+
+    <!-- Email Signature -->
+    <div class="signature">
+        <strong><a href="https://www.karmatics.com/laura_furniss.html">Laura M. Furniss</a>*</strong><br>
+        *Certified Family Law Specialist, State Bar of California, Board of Legal Specialization<br>
+        Principal<br>
+        Furniss Family Law Group, Inc.<br> 
+        499 Seaport Court, Suite 200<br>
+        Redwood City, CA 94063<br>
+        p: (650) 549-8190<br>
+        f: (650) 542-8432<br>
+        <a href="https://www.karmatics.com/laura_furniss.html">Laura@FurnissFLG.com</a><br>
+        <a href="http://www.furnissfamilylawgroup.com">www.furnissfamilylawgroup.com</a>
+    </div>
+</div>
+
+</body>
+</html>
