@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Email Message</title>
+    <title>A Personal Note to Friends and Family</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -38,15 +38,15 @@
         }
         .email-body {
             font-size: 15px;
-            line-height: 1.6;
-            white-space: pre-line;
+            line-height: 1.65;
         }
-        .quote-block {
+        .info-block {
             border-left: 3px solid #0056b3;
             background-color: #f4f7fa;
             padding: 12px 16px;
-            margin: 16px 0;
+            margin: 18px 0;
             font-size: 14.5px;
+            line-height: 1.6;
         }
         .signature {
             margin-top: 24px;
@@ -55,6 +55,20 @@
             font-size: 13px;
             color: #555555;
             line-height: 1.5;
+        }
+        .legal-disclaimer {
+            margin-top: 24px;
+            border-top: 1px solid #e5e5e5;
+            padding-top: 14px;
+            font-size: 11.5px;
+            color: #777777;
+            line-height: 1.5;
+        }
+        .legal-disclaimer p {
+            margin: 0 0 8px 0;
+        }
+        .legal-disclaimer p:last-child {
+            margin-bottom: 0;
         }
         a {
             color: #0056b3;
@@ -72,58 +86,50 @@
     <div class="email-headers">
         <div class="header-line">
             <span class="header-label">From:</span> 
-            <a href="https://www.karmatics.com/laura_furniss.html">Laura M. Furniss</a> &lt;<a href="https://www.karmatics.com/laura_furniss.html">laura@furnissflg.com</a>&gt; via furnissflg.onmicrosoft.com
+            <a href="http://adam47.com">Adam Cornelius</a> &lt;<a href="mailto:adamecornelius@gmail.com">adamecornelius@gmail.com</a>&gt;
         </div>
         <div class="header-line">
             <span class="header-label">To:</span> 
-            <a href="http://adam47.com">Adam Cornelius</a> &lt;<a href="http://adam47.com">adamecornelius@gmail.com</a>&gt;
+            Friends and Family
         </div>
         <div class="header-line">
-            <span class="header-label">Date:</span> Feb 12, 2026, 1:12 PM
-        </div>
-        <div class="header-line">
-            <span class="header-label">Subject:</span> <strong>Cornelius - Cease and Desist</strong>
+            <span class="header-label">Subject:</span> <strong>A Personal Note Regarding Holly and Me</strong>
         </div>
     </div>
 
     <!-- Email Body -->
     <div class="email-body">
-        Mr. Cornelius,<br><br>
-        
-        The Temporary Restraining Order that you were served with on February 6, 2026, with the DV-116, issued February 4, 2026, extending the First Amended Temporary Restraining Order issued December 26, 2026.<br><br>
-        
-        Since being served with the Temporary Restraining Order, you have been reaching out to Ms. Cornelius through friends, and today, you emailed her directly.<br><br>
-        
-        DV-110 Temporary Restraining Order (p.4/9) (page 8/22 in the attached document)
-        
-        <div class="quote-block">
-            <strong>#11</strong><br>
-            You must not contact the person in (1) the persons in (3) directly or indirectly, by any means, including by telephone, mail, email, or other electronic means.
+        <p>Friends and family,</p>
+
+        <p>There are seasons in a life—and in a marriage—that test the architecture of what two people have built together. Holly and I are in one of those seasons now, and we are entering a legal separation.</p>
+
+        <p>The language of a legal process is necessarily formal, even when the feelings behind it remain deeply human. I still love my wife very much. Because this is a difficult passage, I hope you will reach out to her and offer the quiet steadiness of your friendship and support. For my part, out of respect for the process and the boundaries it requires, I will not be returning or contacting her while we work through these matters in the San Mateo County Superior Court System, Southern District.</p>
+
+        <p>Our civic institutions do much of their most important work in the open. Our next hearing on <strong>December 3rd</strong> is a public proceeding, and for those who wish to observe the process or simply be present, I encourage you to attend.</p>
+
+        <div class="info-block">
+            <strong>Public Hearing Information</strong><br>
+            <strong>Date:</strong> December 3rd<br>
+            <strong>Court:</strong> San Mateo County Superior Court, Southern District<br>
+            <strong>Access &amp; Schedule:</strong> <a href="[INSERT_COURT_LINK_HERE]">View Court Hearing Details &amp; Attend ([INSERT_TIME_HERE])</a>
         </div>
-        
-        Any communication must be directed towards me.<br><br>
-        
-        I am requesting you immediately cease and desist all contact, directly or indirectly, with my client forthwith and comply with the terms of the Temporary Restraining Order.<br><br>
-        
-        We sincerely hope you will return to California so that we can move this case forward.<br><br>
-        
-        Thank you,<br><br>
-        
-        <a href="https://www.karmatics.com/laura_furniss.html">Laura</a>
+
+        <p>Thank you for your grace, your patience, and the care you continue to extend to our family.</p>
+
+        <p>With gratitude,</p>
     </div>
 
     <!-- Email Signature -->
     <div class="signature">
-        <strong><a href="https://www.karmatics.com/laura_furniss.html">Laura M. Furniss</a>*</strong><br>
-        *Certified Family Law Specialist, State Bar of California, Board of Legal Specialization<br>
-        Principal<br>
-        Furniss Family Law Group, Inc.<br> 
-        499 Seaport Court, Suite 200<br>
-        Redwood City, CA 94063<br>
-        p: (650) 549-8190<br>
-        f: (650) 542-8432<br>
-        <a href="https://www.karmatics.com/laura_furniss.html">Laura@FurnissFLG.com</a><br>
-        <a href="http://www.furnissfamilylawgroup.com">www.furnissfamilylawgroup.com</a>
+        <strong><a href="http://adam47.com">Adam Cornelius</a></strong><br>
+        <a href="mailto:adamecornelius@gmail.com">adamecornelius@gmail.com</a>
+    </div>
+
+    <!-- Legal Disclaimers -->
+    <div class="legal-disclaimer">
+        <p><strong>Notice &amp; Compliance Disclaimer:</strong> This communication is intended to conform with all applicable provisions of the California Family Code, the California Rules of Court, and all active orders of the Superior Court of California, County of San Mateo. It is shared solely as a general personal update to friends and family regarding a matter of public record.</p>
+        <p><strong>No Indirect Contact:</strong> Nothing in this message is intended to constitute, nor should it be construed as, direct or indirect communication with any opposing or protected party. Recipients are respectfully asked not to forward this message or relay any communications on the sender's behalf. All formal or legal correspondence regarding this matter is handled exclusively through appropriate court channels and counsel of record.</p>
+        <p><strong>Public Access &amp; Informational Notice:</strong> Reference to the December 3rd hearing reflects general public access to court proceedings under California law (Cal. Code Civ. Proc. &sect; 124) and remains subject to local courtroom rules, scheduling changes, or any confidentiality or closure orders issued by the presiding judicial officer. This message is for informational purposes only and does not constitute legal advice.</p>
     </div>
 </div>
 
